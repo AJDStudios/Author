@@ -1,4 +1,18 @@
 The Author site For Aaron James Dodd
+    -- intial commit --
+        created app
+        made a readme with a list of work to complete
+
+    -- Navigation --
+        To Do
+            - Change icons and logos [x]
+            - create navbar [x]
+            - create burger [x]
+            - Burger functional []
+            - navbar is sticky []
+            - commit []
+
+
     -- Plan --
         !Mobile first
         - Navbar - responsive hamburger and sticky
@@ -14,10 +28,7 @@ The Author site For Aaron James Dodd
         - language conversion
         - blogs?
         - forum
-        -
-        -
-        -
-        -
+
     -- Work flow (not timelined for now as this is project 2)
         - Navbar - fully functional and sticky.
         - footer with dark/light toggle
@@ -30,3 +41,4 @@ The Author site For Aaron James Dodd
         - login
         - forum
         - language switcher 
+        - launch website 
