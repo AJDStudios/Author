@@ -8,8 +8,12 @@ The Author site For Aaron James Dodd
             - Change icons and logos [x]
             - create navbar [x]
             - create burger [x]
-            - Burger functional []
-            - navbar is sticky []
+            - Commit 1 [x]
+            - Burger functional [x] - no animation or x - add that
+            - navbar is sticky [] 
+            - mobile first responsive css []
+            - Burger animation and transition to X []
+            - add and route the actual menu [] 
             - commit []
 
 
