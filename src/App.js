@@ -1,16 +1,36 @@
 import Home from "./components/Home"
 import Header from "./components/Header"
+import About from "./pages/About";
+import Works from "./pages/Works";
+import Blog from "./pages/Blog";
+import Updates from "./pages/Updates";
+import Links from "./pages/Links";
+import Forum from "./pages/Forum";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer"
+import { Route, Routes, BrowserRouter } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-
-      <Home name="Reader" />
-
-      <Footer />
-    </div>
+      <div> 
+        <BrowserRouter>
+          <Routes id="dark">
+            <Route path="/" element={<Home name="Reader" />} />
+            <Route path="/Home" element={<Home name="Reader" />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Works" element={<Works />} />
+            <Route path="/Blog" element={<Blog />} />
+            <Route path="/Updates" element={<Updates />} />
+            <Route path="/Links" element={<Links />} />
+            <Route path="/Forum" element={<Forum />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+        </div>
+      <Footer />  
+    </>
   );
 }
 

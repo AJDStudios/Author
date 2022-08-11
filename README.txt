@@ -2,18 +2,32 @@ The Author site For Aaron James Dodd
     -- intial commit --
         created app
         made a readme with a list of work to complete
+        Confirmed it worked
 
     -- Navigation --
+
+    -- Commit 1 --
+        Icons and logos changed
+        created Header
+        created Footer
+        created Burger
+        confirmed it worked
+
+    -- Commit 2 --
+        Burger functional (without animation)
+        confirmed it worked
+
+    -- Commit 3 --
+        Routed the menu
+        Created initial pages without content
+        confirmed it worked
+
         To Do
-            - Change icons and logos [x]
-            - create navbar [x]
-            - create burger [x]
-            - Commit 1 [x]
-            - Burger functional [x] - no animation or x - add that
             - navbar is sticky [] 
             - mobile first responsive css []
             - Burger animation and transition to X []
-            - add and route the actual menu [] 
+            - Route the menu [x]
+            - add the menu [] 
             - commit []
 
 
