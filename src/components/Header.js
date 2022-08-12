@@ -1,13 +1,16 @@
 import React from "react";
 import Navigation from "./Navigation";
+import { Link } from "react-router-dom"
 
 function Header(){
     return(
-        <header className="header">
-            <h1>Aaron James Dodd</h1>
+        <nav className="header">
+            <Link to="/" className="site-title">
+                Aaron James Dodd
+            </Link>
 
             <Navigation />
-        </header>
+        </nav>
     )
 }
 

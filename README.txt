@@ -18,16 +18,17 @@ The Author site For Aaron James Dodd
         confirmed it worked
 
     -- Commit 3 --
-        Routed the menu
+        Routed the site using /<page name>
         Created initial pages without content
         confirmed it worked
 
+    -- Commit 4 --
+        Routed the menu under the burger  
+        Decided I was fine with the click mask to close version of burger (at least for now)  
+
         To Do
             - navbar is sticky [] 
-            - mobile first responsive css []
-            - Burger animation and transition to X []
-            - Route the menu [x]
-            - add the menu [] 
+            - mobile first responsive css for bigger devices[]
             - commit []
 
 

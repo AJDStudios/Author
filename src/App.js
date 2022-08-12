@@ -8,27 +8,27 @@ import Links from "./pages/Links";
 import Forum from "./pages/Forum";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer"
-import { Route, Routes, BrowserRouter } from "react-router-dom"
+import { Route, Routes} from "react-router-dom"
 
 function App() {
   return (
     <>
       <Header />
+
       <div> 
-        <BrowserRouter>
-          <Routes id="dark">
-            <Route path="/" element={<Home name="Reader" />} />
-            <Route path="/Home" element={<Home name="Reader" />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Works" element={<Works />} />
-            <Route path="/Blog" element={<Blog />} />
-            <Route path="/Updates" element={<Updates />} />
-            <Route path="/Links" element={<Links />} />
-            <Route path="/Forum" element={<Forum />} />
-            <Route path="/Contact" element={<Contact />} />
-          </Routes>
-        </BrowserRouter>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home name="Reader" />} />
+          <Route path="/Home" element={<Home name="Reader" />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Works" element={<Works />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/Updates" element={<Updates />} />
+          <Route path="/Links" element={<Links />} />
+          <Route path="/Forum" element={<Forum />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </div>
+
       <Footer />  
     </>
   );
