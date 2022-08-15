@@ -47,7 +47,7 @@ function Navigation(){
 
     return(
         <nav className="nav">
-            <FontAwesomeIcon 
+            <FontAwesomeIcon className="burger"
                 icon= { faBars }
                 onClick ={()=> setShowMenu(!showMenu)}
             />

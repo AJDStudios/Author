@@ -5,13 +5,20 @@
 }
 
 body {
-  height: 100%;
   width: 100%;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
+	z-index: 100;
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
@@ -25,6 +32,7 @@ body {
 
 .menu {
   position: fixed;
+  z-index: 100;
   background-color: dimgrey;
   top: 0;
   left: 0;
@@ -34,7 +42,8 @@ body {
 
 .menumask {
   position: fixed;
-  background-color: black;
+  z-index: 80;
+  background-color: rgb(56, 54, 54);
   top: 0;
   left: 0;
   width: 100%;
@@ -59,12 +68,138 @@ body {
 .footer {
   background-color: grey;
   text-align: center;
-  Position: absolute;
+  Position: fixed;
   bottom: 0;
   width: 100%;
-  border-bottom: 0;
 }
+
+.socials {
+	cursor: pointer;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	transform: scale(1);
+	color: black;
+}
+
+.animated-gif {
+	width: 25px;
+	height: auto;
+}
+
+/*ligh/dark toggle*/
+.darktoggle .checkbox {
+	opacity: 0;
+	position: absolute;
+	padding-bottom: 0;
+	width: 20%;
+}
+
+.label {
+	background-color: black;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1);
+}
+
+.label .ball {
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 1px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
 
 .copyright {
   font-size: 10px;
+}
+
+@media screen and (min-width: 768px) 
+{
+  .header {
+    font-size: 18px;
+    min-height: 10vh;
+  }
+
+  .menu {
+    width: 80%;
+    height: 50%;
+  }
+  
+  .menumask {
+    height: 50%;
+  }
+
+  .route {
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+  
+}
+
+
+@media screen and (min-width: 1180px) 
+{
+  .header {
+    font-size: 28px;
+    min-height: 12vh;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  
+  .menu {
+    width: 60%;
+  }
+  
+  .menumask {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+  }
+ 
+  .copyright {
+    font-size: 12px;
+  }
 }
