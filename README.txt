@@ -31,15 +31,17 @@ The Author site For Aaron James Dodd
         CSS for mobile mostly
         navbar and footer are sticky
 
+    -- Commit 6 (forgot to update this) --
+        burger and desktop menu now separate
+
         Current to do
-            - display ther damn menu on desktop [] 
             - dark/light toggle works
 
     -- remember --
         !Mobile first
 
     -- Work flow (not timelined for now as this is project 2)
-        - Navbar - fully functional and sticky. []
+        - Navbar - fully functional and sticky. [x]
         - footer with dark/light toggle []
         - Hero []
         - About page []
