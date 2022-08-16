@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
+import NavigationWide from "./Navigationwide";
 import { Link } from "react-router-dom"
 
 function Header(){
@@ -10,6 +11,8 @@ function Header(){
             </Link>
 
             <Navigation />
+
+            <NavigationWide />
         </nav>
     )
 }

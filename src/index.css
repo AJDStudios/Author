@@ -30,6 +30,10 @@ a {
   width: 100%;
 }
 
+.navwide {
+  display: none;
+}
+
 .menu {
   position: fixed;
   z-index: 100;
@@ -174,31 +178,62 @@ a {
 @media screen and (min-width: 1180px) 
 {
   .header {
-    font-size: 28px;
     min-height: 12vh;
+    justify-content: center;
+    display: flex;
   }
 
   .burger {
     display: none;
+    width: 0%;
   }
 
-  
   .menu {
-    width: 60%;
+    display: none;
+    width: 0%;
   }
   
   .menumask {
     display: none;
+    width: 0%;
   }
 
   .nav-links {
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    color:black;
+    display: none;
+    width: 0%;
   }
- 
+
+  .site-title{
+    font-size: 25px;
+    width: 25%;
+  }
+  
+
+  .navwide {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .menuwide {
+    font-size: 25px;
+    }
+
+  .nav-linkswide { 
+    display: flex;
+    justify-content: space-evenly; 
+    align-content: space-between;
+    list-style-type: none;
+    
+  }
+
+  .route {
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit;
+    
+  }
+
   .copyright {
     font-size: 12px;
   }
