@@ -1,5 +1,6 @@
 import React from "react";
-import Gif from "./aden.gif"
+import Gif from "./aden.gif";
+
 
 function Footer(){
     return(
@@ -17,16 +18,16 @@ function Footer(){
                     </a>
                 </section>
                 <section className="darktoggle">
-                    <input type="checkbox" className="checkbox" id="chk"/>
-                    <label className="label" htmlFor="chk">
-                        <i className="fas fa-sun"></i>
-                        <i className="fas fa-moon"></i>
-                        <div className="ball"></div>
+                    <input type="checkbox" className="checkbox" id="chk" />
+                    <label className="label" htmlFor="chk" >
+                        <i className="fas fa-sun" ></i>
+                        <i className="fas fa-moon" ></i>
+                        <div className="ball" ></div>
                     </label>
                 </section>
             </div>    
             <div className="footer">
-                <h1 className="copyright">Copyright 2022</h1>
+                <h1 className="copyright">&#169; Copyright 2022</h1>
             </div>
         </footer>
        

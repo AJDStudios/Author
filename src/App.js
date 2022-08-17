@@ -1,4 +1,5 @@
-import Home from "./components/Home"
+import React from "react";
+import Home from "./pages/Home"
 import Header from "./components/Header"
 import About from "./pages/About";
 import Works from "./pages/Works";
@@ -9,6 +10,7 @@ import Forum from "./pages/Forum";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer"
 import { Route, Routes} from "react-router-dom"
+
 
 function App() {
   return (

@@ -36,6 +36,8 @@ The Author site For Aaron James Dodd
 
         Current to do
             - dark/light toggle works
+            - CSS basics
+            - Hero Page
 
     -- remember --
         !Mobile first
