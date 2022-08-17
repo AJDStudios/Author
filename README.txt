@@ -34,10 +34,12 @@ The Author site For Aaron James Dodd
     -- Commit 6 (forgot to update this) --
         burger and desktop menu now separate
 
+    -- Commit 7 --
+        Home page content added
+
         Current to do
             - dark/light toggle works
             - CSS basics
-            - Hero Page
 
     -- remember --
         !Mobile first
