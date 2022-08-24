@@ -26,9 +26,10 @@ a {
 	font-size: 16px;
   text-decoration: none;
   color:  black;
-	background-color: dimgrey;
+	background-color: #964a40;
 	font-family: sans-serif;
   width: 100%;
+  border: 3px double #581f15;
 }
 
 .navwide {
@@ -38,7 +39,7 @@ a {
 .menu {
   position: fixed;
   z-index: 100;
-  background-color: dimgrey;
+  background-color: #964a40;
   top: 0;
   left: 0;
   width: 80%;
@@ -48,7 +49,7 @@ a {
 .menumask {
   position: fixed;
   z-index: 80;
-  background-color: rgb(56, 54, 54);
+  background-color: #581f15;
   top: 0;
   left: 0;
   width: 100%;
@@ -71,11 +72,12 @@ a {
 }
 
 .footer {
-  background-color: grey;
+  background-color: #964a40;
   text-align: center;
   Position: sticky;
   bottom: 0;
   width: 100%;
+  border-bottom: 3px double #581f15;
 }
 
 .socials {
@@ -89,6 +91,7 @@ a {
 	width: 100%;
 	transform: scale(1);
 	color: black;
+  border-top: 3px double #581f15;
 }
 
 .animated-gif {
@@ -279,6 +282,12 @@ a {
 }
 
 @media screen and (min-width: 1180px) {
+  .homesplash img{
+    margin: 1vh 10vw;
+    width: 80%;
+    height: auto;
+  }
+  
   .homesplash h1{
     font-size: 60px;
     letter-spacing: 2px;
@@ -290,4 +299,97 @@ a {
     letter-spacing: 3px;
     word-spacing: 3px;
   }
+}
+
+/*contact page */
+.contactform{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 3.5rem;
+	font-size: 24px;
+}
+
+.subform {
+	padding: 2rem;
+}
+
+.submit {
+	background: linear-gradient(to right, #063535, #2F4F4F);
+	color: dimgrey;
+	font-size: 24px;
+	width: 100%;
+	Height: 2.5rem;
+}
+
+  input {
+	padding: .5rem;
+	background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+	width: 100%;
+	font-size: 16px;
+  }
+
+  textarea{
+	padding: 1rem;
+	background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+	width: 100%;
+	min-height: 100px;
+	font-size: 16px;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .subform {
+      padding: 1rem;
+    }
+
+    .contactform{
+      padding: 5rem;
+      font-size: 40px;
+    }
+    
+    .submit {
+      font-size: 32px;
+      width: 100%;
+      Height: 3.5rem;
+    }
+
+    input {
+      padding: 1.2rem;
+      font-size: 24px;
+      }
+	
+	  textarea{
+		min-height: 150px;
+		padding: 1rem;
+		font-size: 24px;
+	  }
+}
+
+  @media screen and (min-width: 1180px) {
+  	.contactform{
+	  	padding: 10rem;
+		  font-size: 48px;
+	}
+
+	  .submit {
+		  font-size: 48px;
+		  width: 100%;
+		  height: 4.5rem;
+	}
+
+  	input {
+      padding: 1rem;
+      background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+      width: 100%;
+      font-size: 32px;
+	  }
+	
+	  textarea{
+      padding: 1rem;
+      background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+      width: 100%;
+      font-size: 32px;
+      min-height: 250px;
+	  }
 }

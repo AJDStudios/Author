@@ -37,9 +37,14 @@ The Author site For Aaron James Dodd
     -- Commit 7 --
         Home page content added
 
+    -- Commit 8 -- 
+        Demons theme on homesplash
+        edited header and footer colours
+        added contact form ( needs CSS )
+
         Current to do
-            - dark/light toggle works
-            - CSS basics
+            - dark/light toggle works - angel/demon icon if possible
+            - CSS on contact
 
     -- remember --
         !Mobile first
@@ -47,7 +52,7 @@ The Author site For Aaron James Dodd
     -- Work flow (not timelined for now as this is project 2)
         - Navbar - fully functional and sticky. [x]
         - footer with dark/light toggle []
-        - Hero []
+        - Home [x]
         - About page []
         - bibliography/portfolio []
         - contact []

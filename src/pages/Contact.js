@@ -1,11 +1,14 @@
 import React from "react";
+import ContactForm from "../components/Contactform.tsx";
 
-class Contact extends React.Component{
-    render(){
-        return (
-            <h1>Contact AD</h1>
-        )
-    }
-}
+function Contact () {
+    return (
+        <>
+            <div className="contact">
+		        <ContactForm />
+            </div>
+        </>
+    )
+}        
 
 export default Contact
