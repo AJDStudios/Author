@@ -45,6 +45,7 @@ The Author site For Aaron James Dodd
         Current to do
             - dark/light toggle works - angel/demon icon if possible
             - CSS on contact
+            - About page
 
     -- remember --
         !Mobile first
