@@ -32,6 +32,7 @@ a {
   border: 3px double #581f15;
 }
 
+/*nav*/
 .navwide {
   display: none;
 }
@@ -337,7 +338,6 @@ a {
 	font-size: 16px;
   }
 
-
   @media screen and (min-width: 768px) {
     .subform {
       padding: 1rem;
@@ -392,4 +392,45 @@ a {
       font-size: 32px;
       min-height: 250px;
 	  }
+}
+
+/*About*/
+.about{
+    display: inline-block ;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 24px;
+    background: linear-gradient(to right, #817ebd, #4d4096, #211558);
+}
+
+.about img{
+  width: 100%;
+  height: auto; 
+}
+
+.about h1{
+  padding-top: 1em;
+  margin-bottom: 1em;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0e0d0d;
+  border-bottom: 1px solid #964a40;
+}
+
+.about h2{
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about p{
+  margin: 0.5em 1em 0.5em 1em;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  color: linear-gradient(to right, #151414, #060606);
 }
