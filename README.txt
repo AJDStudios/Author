@@ -1,5 +1,5 @@
 The Author site For Aaron James Dodd
-    -- Current Workload week beginning 26/11/22 -- 
+    -- Current Workload -- 
         -- Goals for this sprint --    
             - dark/light toggle works - angel/demon icon if possible
             - CSS on contact
@@ -63,7 +63,7 @@ The Author site For Aaron James Dodd
 
     -- ABOUT INIT --
     -- CONTACT Init --
-    -- Commit 9 -- 26/11/22 --
+    -- Commit 9  --
         About and Contact HTML framework added.
         First pass at content on About page
         contact form 
